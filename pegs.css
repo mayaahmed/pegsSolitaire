@@ -77,8 +77,8 @@ font:  19px Tahoma;
 #container{
  width:255px; height:255px;  border-radius:50%; border:10px black;
  
- background: linear-gradient(#994C00, #663300); 
-// background: #994C00;
+// background: linear-gradient(#994C00, #663300); 
+ background: #994C00;
 // opacity: 0.9;
 text-align: center;
 float: left;
