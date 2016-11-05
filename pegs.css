@@ -78,7 +78,8 @@ font:  19px Tahoma;
 #container{
  
   width:255px; height:255px;  border-radius:50%; 
- background: linear-gradient(#994C00, #663300); 
+ background:#712C0C;
+
 // background: #994C00;
 // opacity: 0.9;
 text-align: center;
