@@ -204,7 +204,7 @@ var string = 'Congratulations! You win.';
 document.getElementById("victoryDiv").innerHTML = string;
 }
 
- applaud();
+// applaud();
 
 
 
