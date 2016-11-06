@@ -26,6 +26,10 @@
 <icon src="xhdpi.png" platform="android" qualifier="xhdpi" />
 <icon src="xxhdpi.png" platform="android" qualifier="xxhdpi" />
 
+<feature name="Media">
+    <param name="android-package" value="org.apache.cordova.media.AudioHandler" />
+</feature>
 
+<gap:plugin name="org.apache.cordova.media" /> 
     
  </widget>

@@ -204,26 +204,30 @@ var string = 'Congratulations! You win.';
 document.getElementById("victoryDiv").innerHTML = string;
 }
 
-// applaud();
+ applaud();
 
-function openNav() {
-    document.getElementById("myNav").style.height = "100%";
+
+
+
+
+function openNav(el){
+el.style= "-webkit-transition: height 0.5s ease-in 0s";
+el.style.height="200px";
+el.style.visibility="visible";
 }
 
-function closeNav() {
-    document.getElementById("myNav").style.height = "0%";
+function closeNav(el){
+el.style.transition="height 1.0s linear 0s";
+el.style.height="0px";
+el.style.border="none";
 }
 
 
 
-
-
-
-
-
-
-
-
+function address(){
+  var string = "Punjiri Web and Mobile Technologies";
+  alert(string);
+}
 
 
 
