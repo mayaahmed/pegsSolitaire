@@ -38,9 +38,6 @@ body{
    //  opacity:0.9;
 	}
 
-#flag{
-font-size: 11px;
-}
 
 ul{
 float:right;
@@ -69,6 +66,7 @@ font:  19px Tahoma;
     margin: 10px auto;
 	-webkit-box-flex: 1;
     padding: 20px;
+padding-bottom: 10%;
    //  border: 1px solid white;
 }
 
@@ -77,7 +75,10 @@ font:  19px Tahoma;
 
 #container{
 
-  width:255px; height:255px;  border-radius:50%; 
+ width:255px; height:255px; 
+
+ 
+ border-radius:50%; 
  background:#712C0C;
 
 // background: #994C00;
