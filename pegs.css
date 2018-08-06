@@ -1,73 +1,79 @@
 *
 {
     margin: 0px;
-	padding: 0px;
+    padding: 0px;
 }
 
 
 
 header, section, footer, aside, nav, article, hgroup{
-	display: block;
+    display: block;
 }
 body{
-	width: 100%;
-	display: -webkit-box;
-	-webkit-box-pack: center;
- //   background: linear-gradient(black 50%, skyblue, white); 
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    //   background: linear-gradient(black 50%, skyblue, white); 
     background: black;
 }
 #big_wrapper{
-	max-width: 1000px;
-	margin: 20px 0px;
-	display:-webkit-box;
-	-webkit-box-orient: vertical;
-	-webkit-box-flex: 1;
+    max-width: 1000px;
+    margin: 20px 0px;
+    display:-webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-flex: 1;
 }
 
 #topStuff{
 
     opacity:0.7;
-	border-bottom: 2px solid  #4C9900;
+    border-bottom: 2px solid  #4C9900;
 }
 
 #top_header{
-	font: bold 25px Tahoma; 
+    font: bold 25px Tahoma; 
     color:  #4C9900;
+    padding-left: 20px;
+}
 
 
-   //  opacity:0.9;
-	}
+#top_header:hover{
+  font: bold 26px Tahoma; 
+   text-shadow: 1px 1px 1px blue;
+}
+
+
 
 
 ul{
-float:right;
+    float:right;
 }
 
 li a{
-text-decoration: none;
- color:  #4C9900;
-	font:  18px Tahoma; 
-padding:10px;
+    text-decoration: none;
+    color:  #4C9900;
+    font:  18px Tahoma; 
+    padding:10px;
 }
 
 li a:hover{
-font:  19px Tahoma; 
+    font:  19px Tahoma; 
 }
 #top_menu li{
     
-	display: inline-block;
-	list-style: none;
-	font: bold 25px Tahoma;
+    display: inline-block;
+    list-style: none;
+    font: bold 25px Tahoma;
     color:  #4C9900;
 }
-    
+
 
 #main_section{
     margin: 10px auto;
-	-webkit-box-flex: 1;
+    -webkit-box-flex: 1;
     padding: 20px;
-padding-bottom: 10%;
-   //  border: 1px solid white;
+    padding-bottom: 10%;
+    //  border: 1px solid white;
 }
 
 
@@ -75,19 +81,19 @@ padding-bottom: 10%;
 
 #container{
 
- width:255px; height:255px; 
+    width:255px; height:255px; 
 
- 
- border-radius:50%; 
- background:#712C0C;
+    
+    border-radius:50%; 
+    background:#712C0C;
 
-// background: #994C00;
-opacity: 0.7;
-text-align: center;
-float: left;
-box-shadow: inset 5px 5px 10px black;
+    // background: #994C00;
+    opacity: 0.7;
+    text-align: center;
+    float: left;
+    box-shadow: inset 5px 5px 10px black;
 
-padding: 20px;
+    padding: 20px;
 }
 
 
@@ -95,59 +101,59 @@ padding: 20px;
 
 
 .cell{
-width:32px; height:32px; border-radius: 50%;
-border:2px solid #994C00;
-//background: gray;
-text-align: center;
-float: left;
-box-shadow: inset 0px 0px 30px #000000;
-opacity: 0.6;
+    width:32px; height:32px; border-radius: 50%;
+    border:2px solid #994C00;
+    //background: gray;
+    text-align: center;
+    float: left;
+    box-shadow: inset 0px 0px 30px #000000;
+    opacity: 0.6;
 
 }
 
 .cell:hover{
- 
- opacity: 0.9;
+    
+    opacity: 0.9;
 }
 
 
 
 #cell13{
 
-float: left;
-margin-left: 72px;
+    float: left;
+    margin-left: 72px;
 }
 
 #cell23{
-clear: both;
-float: left;
-margin-left: 72px;
+    clear: both;
+    float: left;
+    margin-left: 72px;
 }
 
 #cell31{
-clear: both;
-float: left;
+    clear: both;
+    float: left;
 }
 
 #cell41{
-clear: both;
-float: left;
+    clear: both;
+    float: left;
 }
 
 #cell51{
-clear: both;
-float: left;
+    clear: both;
+    float: left;
 }
 #cell63{
-clear: both;
-float: left;
-margin-left: 72px;
+    clear: both;
+    float: left;
+    margin-left: 72px;
 }
 
 #cell73{
-clear: both;
-float: left;
-margin-left: 72px;
+    clear: both;
+    float: left;
+    margin-left: 72px;
 }
 
 
@@ -156,11 +162,11 @@ margin-left: 72px;
 
 .img-circle {
     border-radius: 50%;
- 
+    
 }
 
 #marbles{
-margin: 100px;
+    margin: 100px;
 }
 
 .show {display:block;}
@@ -168,17 +174,17 @@ margin: 100px;
 
 
 .overlay{
-position: absolute;
-left: 20px;
-	top: 360px;
-	width: 400px;
-	height: 150px;
-	background: #333;
-opacity: 0.8;
-	transition: left 0.8s linear 0s;
- color: beige;
+    position: absolute;
+    left: 20px;
+    top: 360px;
+    width: 400px;
+    height: 150px;
+    background: #333;
+    opacity: 0.8;
+    transition: left 0.8s linear 0s;
+    color: beige;
     overflow: hidden;
-visibility: hidden;
+    visibility: hidden;
 }
 
 
@@ -196,7 +202,7 @@ visibility: hidden;
     padding: 8px;
     text-decoration: none;
     font-size: 16px;
-   color: beige;
+    color: beige;
     display: block;
     transition: 0.3s;
 }
@@ -213,43 +219,43 @@ visibility: hidden;
 }
 
 @media screen and (max-height: 450px) {
-  .overlay {overflow-y: auto;}
-  .overlay a {font-size: 20px;}
-  .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 20px;}
+    .closebtn {
+	font-size: 40px;
+	top: 15px;
+	right: 35px;
+    }
 }
 
 #victoryDiv{
-position: relative;
-// margin-top: 100px;
-margin-left: 20px;
- font-size: 25px;
-height: 35px;
-color: green;
-text-shadow: 0px 1px 1px beige;
-opacity: 1;
+    position: relative;
+    // margin-top: 100px;
+    margin-left: 20px;
+    font-size: 25px;
+    height: 35px;
+    color: green;
+    text-shadow: 0px 1px 1px beige;
+    opacity: 1;
 }
 
 
 #victoryDiv:hover{
-opacity: 0.8;
+    opacity: 0.8;
 
 }
 
 #the_footer{
-	text-align: center;
+    text-align: center;
     font-size: 12px;
-	padding: 20px;
-	border-top: 2px solid green;
-   color: #32CD32;
+    padding: 20px;
+    border-top: 2px solid green;
+    color: #32CD32;
     opacity: 0.7;
 }
 
 
 #the_footer:hover{
-font-size: 14px;
- color: beige;
+    font-size: 14px;
+    color: beige;
 }
